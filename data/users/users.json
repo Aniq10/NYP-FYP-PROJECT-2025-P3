@@ -1,0 +1,12 @@
+{
+  "users": {
+    "ilysia": {
+      "email": "staff123@mymail.nyp.edu.sg",
+      "password": "password123"
+    },
+    "Aniq10": {
+      "email": "staff345@mymail.nyp.edu.sg",
+      "password": "Password_123"
+    }
+  }
+}

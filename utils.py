@@ -1,7 +1,10 @@
 import pathlib
 import os
 
-def rel2abspath(relative_path: str) -> str:
+# NEW: Add validation so that the fallback is more graceful and interpretable
+def rel2abspath(relative_path):
+    if not relative_path:
+        raise ValueError("relative_path is None. Did you forget to set USER_DB_PATH?")
     return str((pathlib.Path().resolve() / relative_path).resolve())
 
 def create_folders(path: str):

@@ -1,0 +1,35 @@
+Data Stock-taking Summary Sheet,,,,,,
+,,,,,,
+Please indicate the datasets that are regularly used by your department / school.  ,,,,,,
+Examples of usage:,,"1. for annual submission to MOE, SSG, PSD etc",,,,
+,,2. for management reporting,,,,
+,,3. for publicity or for public information,,,,
+,,,,,,
+,Owner,Dataset ID,Dataset Name,Usage,Shared to,Frequency
+,HR,,Age-Group and Length-Of-Service Profile,,,
+,QPO,NYP-KPI-LST-001,NYP_INDICATORS_KPI_DEFINITIONS,NYP Management Dashboard,NYP,annual
+,HR,NYP-KPI-EES-001,NYP_INDICATORS_KPI_EES,NYP Management Dashboard,NYP,annual
+,RGO,LEARNER-ADM-INT-002,"Nanyang Polytechnic Student Enrolment, Annual",Data.gov.sg,Public,annual
+,RGO,LEARNER-ADM-PIT-001,"Nanyang Polytechnic Planned Intake, Annual",Data.gov.sg,Public,annual
+,RGO,LEARNER-ADM-INT-001,"Nanyang Polytechnic Student Intake, Annual",Data.gov.sg,Public,annual
+,RGO,Course-PET-DF-001,Full-time Diploma Courses,Data.gov.sg,Public,annual
+,CIL3,Course-LLL--All-001,Lifelong Learning Courses for Adult Learners,Data.gov.sg,Public,annual
+,RGO,LEARNER-ADM-LAS-001,Nanyang Polytechnic GCE 'O' Level Aggregate Cut-Off_Points by Course,Data.gov.sg,Public,annual
+,RGO,LEARNER-GES-FG-2020,NYP GES 2020 for Graduates Class 2020,"MOE Policy Analysis
+NYP Management Review","GES Contractor 
+MOE",annual
+,RGO,LEARNER-GES-PNS-2020,NYP GES 2020 for Post NS Class 2017,"MOE Policy Analysis
+NYP Management Review","GES Contractor 
+MOE",annual
+,RGO,LEARNER GES-PG-2020,NYP GES 2020 for Poly Graduates Class 2015,"MOE Policy Analysis
+NYP Management Review","GES Contractor 
+MOE",annual
+,RGO,LEARNER-WSPOS-PPT-2020,NYP Work Study Programme Outcome Survey 2020 - Participants,"SSG Policy Analysis
+NYP Management Review","WSPOS Contractor
+SSG",annual
+,RGO,LEARNER-WSPOS-EMP-2020,NYP Work Study Programme Outcome Survey 2020 - Employers,"SSG Policy Analysis
+NYP Management Review","WSPOS Contractor
+SSG",annual
+,HR,STAFF-PLAN-PSD-001,Staff Strength and Movement,Annual returns for analysis,PSD,annual
+,HR,STAFF-PLAN-MOM-001,Labour Market Survey,MOM Policy Analysis,MOM,annual
+,,, ,,,
