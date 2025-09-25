@@ -345,7 +345,7 @@ def file_classification_section():
             else:
                 with st.spinner("Classifying file..."):
                     files = {"file": uploaded_file}
-                    response = requests.post("http://127.0.0.1:5001/classify", files=files)
+                    response = requests.post(f"{API_URL}/classify", files=files)
 
             if response.status_code == 200:
                 json_str = response.json().get("answer")
