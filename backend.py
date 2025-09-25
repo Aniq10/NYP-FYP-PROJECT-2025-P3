@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, Response
 from werkzeug.utils import secure_filename
 import os
 from dotenv import load_dotenv
@@ -146,6 +146,11 @@ def save_message(username, chat_id, message):
         logging.error(f"Error saving message to chat {chat_id}: {str(e)}")
         return False
 
+# health check (Render pings this)
+@app.route("/healthz", methods=["GET"])
+def healthz():
+    return Response("ok", status=200, mimetype="text/plain")
+    
 # Route for file uploads
 @app.route('/upload', methods=['POST'])
 def upload_file():
@@ -316,6 +321,4 @@ def transcribe_audio():
 
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5001))
-    logging.info("Starting Flask application on port 5001.")
     app.run(host="0.0.0.0", port=port, debug=False)
-    print(app.url_map)
